@@ -3,12 +3,12 @@
 # 生成文件
 echo '开始生成文件...'
 hexo g
-echo '生成文件成功\n\n'
+echo -e '生成文件成功\n\n'
 
 # 部署文件
 echo '开始部署文件...'
 hexo d
-echo '部署文件成功\n\n'
+echo -e '部署文件成功\n\n'
 
 # 上传博客源码
 comment=$1
